@@ -1,0 +1,83 @@
+<!-- wp:paragraph {"fontSize":"medium"} -->
+ <p class="has-medium-font-size">Компания ТАЙСУ-ТБ осуществляет услуги по <a href="/tamozhennoe-oformlenie/">таможенному оформлению</a> в Пскове и Псковской области.</p> 
+<!-- /wp:paragraph -->
+ 
+<!-- wp:paragraph -->
+ <p>Большой опыт специалистов, дает возможность макисмально быстро осуществлять таможенные операции с любой номенклатурой товаров.</p> 
+<!-- /wp:paragraph -->
+ 
+<!-- wp:heading -->
+ <h2>Услуги таможенного брокера в Пскове</h2> 
+<!-- /wp:heading -->
+ 
+<!-- wp:paragraph -->
+ <p>ТАЙСУ-ТБ работает в режиме "все включено". Оказываем полный пакет услуг, которые требуются для импорта и экспорта , в одной компаний.</p> 
+<!-- /wp:paragraph -->
+ 
+<!-- wp:list {"className":"service-block"} -->
+ <ul class="service-block"><li>Персональный специалист по таможенной очистке;</li><li>Предварительное рассмотрение и согласование документов;</li><li>Классификация груза в соответствии с ТНВЭД;</li><li>Расчет таможенных платежей;</li><li>Подготовка документов, необходимых для таможенного оформления;</li><li>Предоставление Псковской таможни необходимой для прохождения таможенных операций документации;</li><li>Подтверждение таможенной стоимости;</li><li>Представление Ваших интересов в таможенных органах;</li><li>Организацию в необходимых случаях предварительного таможенного осмотра товаров и транспортных средств до подачи ДТ;</li><li>Таможенное оформление товара в качестве уполномоченного лица;</li><li>Информирование и консультационные услуги в рамках поставки;</li></ul> 
+<!-- /wp:list -->
+ 
+<!-- wp:heading -->
+ <h2>Псковская таможня</h2> 
+<!-- /wp:heading -->
+ 
+<!-- wp:paragraph -->
+ <p>Код таможни: 10209000<br>Адрес: 180000, г. Псков, ул. Воровского, д. 20<br>Телефон: +7 (811) 275-41-49</p> 
+<!-- /wp:paragraph -->
+ 
+<!-- wp:html -->
+ <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A17e704964a8447594f589e661aa8a5930d1c3d900c85b937d9cc5c6840dd829b&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe> 
+<!-- /wp:html -->
+ 
+<!-- wp:spacer {"height":30} -->
+ <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div> 
+<!-- /wp:spacer -->
+ 
+<!-- wp:heading {"level":3} -->
+ <h3>Таможенные посты Псковской таможни</h3> 
+<!-- /wp:heading -->
+ 
+<!-- wp:table -->
+ <table><tr><td>Код таможи</td><td>Название</td><td>Адрес</td></tr><tr><td>10209020</td><td>т/п ЖДПП Печоры-Псковские</td><td>181500, Псковская обл., г. Печоры, ул. Железнодорожная, д. 5</td></tr><tr><td>10209030</td><td>т/п ЖДПП Скангали</td><td>181410, Псковская обл., г. Пыталово, ж/д ст. Пыталово</td></tr><tr><td>10209032</td><td>ОТО и ТК №2 таможенного поста ЖДПП Скангали</td><td>181410, Псковская обл., г. Пыталово, ул. Белорусская, д. 13</td></tr><tr><td>10209040</td><td>т/п МАПП Куничина Гора</td><td>181500, Псковская обл., г. Печоры, МАПП Куничина Гора</td></tr><tr><td>10209050</td><td>т/п МАПП Убылинка</td><td>181425, Псковская обл., Пыталовский р-н, сп. Гавровская волость, дер. Уболенка, д. б/н</td></tr><tr><td>10209060</td><td>т/п МАПП Шумилкино</td><td>181512, Псковская обл., Печорский р-н, сп. Лавровская волость, тер. МАПП Шумилкино</td></tr><tr><td>10209070</td><td>Убылинский т/п</td><td>181425, Псковская обл., Пыталовский р-н, сп. Гавровская волость, дер. Уболенка, д. б/н</td></tr><tr><td>10209073</td><td>ОТО и ТК №3 Убылинского таможенного поста</td><td>181425, Псковская обл., Пыталовский р-н, сп. Гавровская волость, дер. Уболенка, МАПП Убылинка</td></tr><tr><td>10209080</td><td>Печорский т/п</td><td>181500, Псковская обл., Печорский р-н, г. Печоры, ул. Солнечная, д. 15</td></tr><tr><td>10209090</td><td>Псковский т/п</td><td>180502, Псковская обл., Псковский р-н, сп. Тямшанская волость, 1.5 км западнее дер. Моглино, ОЭЗ ППТ Моглино, д. 17</td></tr><tr><td>10209094</td><td>ОТО и ТК №2 Псковского таможенного поста</td><td>180005, г. Псков, ул. Экипажа Гудина, д. 7</td></tr><tr><td>10209095</td><td>ОТО и ТК №3 Псковского таможенного поста</td><td>180005, г. Псков, Зональное ш., д. 46</td></tr><tr><td>10209100</td><td>т/п МАПП Лудонка</td><td>181421, Псковская обл., Пыталовский р-н, сп. Носовская волость, д. Новая Лудонка, МАПП Лудонка, д. б/н</td></tr><tr><td>10209110</td><td>Великолукский т/п</td><td>182100, Псковская обл., г. Великие Луки, ул. Запрудная, д. 1</td></tr><tr><td>10209120</td><td>Овинковский т/п</td><td>182350, Псковская обл., Себежский р-н, рп. Сосновый бор, урочище Овинки</td></tr><tr><td>10209130</td><td>Себежский т/п</td><td>182250, Псковская обл., Себежский р-н, вблизи ориентира дер. Хрошки, д. б/н</td></tr><tr><td>10209133</td><td>ОТО и ТК №2 Себежского таможенного поста</td><td>182350, Псковская обл., Себежский р-н, рп. Сосновый Бор, урочище Овинки</td></tr><tr><td>10209140</td><td>т/п ЖДПП Посинь</td><td>182250, Псковская обл., Себежский р-н, г. Себеж, ж/д ст. Себеж</td></tr><tr><td>10209150</td><td>т/п МАПП Бурачки</td><td>182250, Псковская обл., Себежский р-н, дер. Бурачки</td></tr></table> 
+<!-- /wp:table -->
+ 
+<!-- wp:heading {"level":3} -->
+ <h3>СВХ Пскова и Псковской области</h3> 
+<!-- /wp:heading -->
+ 
+<!-- wp:table -->
+ <table><thead><tr><th>СВХ</th><th>АДРЕС</th></tr></thead><tbody><tr><td>Транзит – Терминал</td><td>дер. Уболенка, с/п Гавровская волость, Пыталовский р-он, Псковская область</td></tr><tr><td>НСУ Логистик</td><td>дер. Уболенка, с/п Гавровская волость, Пыталовский р-он, Псковская область</td></tr><tr><td>Миком</td><td>Печоры, ул. Солнечная, д. 15, Псковская область</td></tr><tr><td>Транзит – Терминал</td><td>Псков, ул. Декабристов, д. 23</td></tr><tr><td>Северо-Западный СВХ</td><td>Псков, ул. Экипажа Гудина, д. 7</td></tr><tr><td>Элком-Терминал</td><td>Псков, ул. Зональное шоссе, д. 46</td></tr><tr><td>Великолукский мясокомбинат</td><td>Великие Луки, ул. Литейная, д. 17, Псковская область</td></tr><tr><td>Таможенно-Логистический Терминал</td><td>Великие Луки, ул. Запрудная, д. 1, Псковская область</td></tr><tr><td>Рус-Сервис терминал</td><td>дер. Овинки, с/п Дединская волость, Себежский р-он, Псковская область</td></tr><tr><td>Терминал М9</td><td>дер. Бурачки, Себежский р-он, Псковская область</td></tr><tr><td>РОСТЭК-НТБ</td><td>дер. Хрошки, Себежский р-он, Псковская область</td></tr></tbody></table> 
+<!-- /wp:table -->
+ 
+<!-- wp:heading -->
+ <h2>Преимущества таможенного представителя ТАЙСУ-ТБ</h2> 
+<!-- /wp:heading -->
+ 
+<!-- wp:list {"className":"st"} -->
+ <ul class="st"><li>Персональный менеджер ведет груз по всей цепи поставки, экономя Ваше время на коммуникации с отдельными специалистами;</li><li>Лицензия таможенного представителя;</li><li>На рынке 28 лет;</li><li>Таможенное оформление за несколько часов;</li><li>Сотрудники компании непосредственно на таможенных постах;</li><li>Оказываем полный комплекс услуг по таможенному оформлению и международным грузоперевозкам;</li></ul> 
+<!-- /wp:list -->
+ 
+<!-- wp:heading -->
+ <h2>Стоимость и сроки таможенной очистки в Пскове</h2> 
+<!-- /wp:heading -->
+ 
+<!-- wp:paragraph -->
+ <p>Средний срок выпуска товаров с таможни не более 24 часов. Чаще всего за счет профессионализма и отлаженных механизмов работы с таможенными органами процедура занимает несколько часов.</p> 
+<!-- /wp:paragraph -->
+ 
+<!-- wp:paragraph -->
+ <p>Таможенное оформление в в Пскове и Псковской области осуществляется по индивидуальным тарифам. Окончательные условия, наименование и стоимость услуг определяются в договоре. Цена зависит от таможенной процедуры, условий поставки, номенклатуры товаров, количества и периодичности поставок.</p> 
+<!-- /wp:paragraph -->
+
+<!-- wp:button {"backgroundColor":"vivid-red"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-vivid-red-background-color" href="https://taisu-tb.ru/services/tseny-na-uslugi/"> Тарифы на услуги таможенного оформления </a></div>
+<!-- /wp:button -->
+
+<!-- wp:heading -->
+<h2>Порядок таможенного оформления в Пскове</h2>
+<!-- /wp:heading -->
+
+<!-- wp:uagb/content-timeline {"tm_content":[{"time_heading":"1. Запрос на оформление","time_desc":"Свяжитесь с нами по телефону \u003ca href=\u0022tel:+74995000049\u0022\u003e+7 (499) 500-00-49\u003c/a\u003e или через \u003ca href=\u0022#order\u0022\u003eформу на сайте\u003c/a\u003e"},{"time_heading":"2. Консультация специалиста","time_desc":"Мы узнаем Вашу задачу в сфере ВЭД и сообщаем цену на таможенное оформление"},{"time_heading":"3. Подписание договора","time_desc":"Согласование условий сотрудничества и подписание договора"},{"time_heading":"4. Подготовка документов","time_desc":"Сбор и подготовка необходимой разрешительной документации"},{"time_heading":"5. Таможенное оформление в Пскове","time_desc":"Выделение специалиста и оформление ДТ под печать таможенного представителя"}],"headingColor":"#cf2e2e","separatorBg":"#eeeeee","separatorColor":"#eeeeee","separatorFillColor":"#cf2e2e","separatorBorder":"#cf2e2e","borderFocus":"#cf2e2e","headFontSize":20,"headFontWeight":"500","timelinAlignment":"left","iconColor":"#cf2e2e","iconFocus":"#eeeeee","iconBgFocus":"#cf2e2e","block_id":"fe0e6a50-6963-4e04-9534-a3b8d3aa4d31","icon":"check","displayPostDate":false} -->
+<div class="wp-block-uagb-content-timeline uagb-timeline__outer-wrap" id="uagb-ctm-fe0e6a50-6963-4e04-9534-a3b8d3aa4d31"><div class="uagb-timeline__content-wrap uagb-timeline__left-block uagb-timeline__arrow-center uagb-timeline__responsive-tablet uagb-timeline"><div class="uagb-timeline-wrapper"><div class="uagb-timeline__main"><div class="uagb-timeline__days"><article class="uagb-timeline__field uagb-timeline__field-wrap"><div class="uagb-timeline__widget uagb-timeline__left"><div class="uagb-timeline__marker out-view-uagb-timeline__icon"><span class="uagb-timeline__icon-new out-view-uagb-timeline__icon "><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span></div><div class="uagb-timeline__day-new uagb-timeline__day-left"><div class="uagb-events-new"><div class="uagb-timeline__events-inner-new"><div class="uagb-timeline__date-hide uagb-timeline__date-inner"></div><div class="uagb-timeline-content"><div class="uagb-timeline__heading-text"><h4 class="uagb-timeline__heading">1. Запрос на оформление</h4></div><p class="uagb-timeline-desc-content">Свяжитесь с нами по телефону <a href="tel:+74995000049">+7 (499) 500-00-49</a> или через <a href="#order">форму на сайте</a></p><div class="uagb-timeline__arrow"></div></div></div></div></div></div></article><article class="uagb-timeline__field uagb-timeline__field-wrap"><div class="uagb-timeline__widget uagb-timeline__left"><div class="uagb-timeline__marker out-view-uagb-timeline__icon"><span class="uagb-timeline__icon-new out-view-uagb-timeline__icon "><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span></div><div class="uagb-timeline__day-new uagb-timeline__day-left"><div class="uagb-events-new"><div class="uagb-timeline__events-inner-new"><div class="uagb-timeline__date-hide uagb-timeline__date-inner"></div><div class="uagb-timeline-content"><div class="uagb-timeline__heading-text"><h4 class="uagb-timeline__heading">2. Консультация специалиста</h4></div><p class="uagb-timeline-desc-content">Мы узнаем Вашу задачу в сфере ВЭД и сообщаем цену на таможенное оформление</p><div class="uagb-timeline__arrow"></div></div></div></div></div></div></article><article class="uagb-timeline__field uagb-timeline__field-wrap"><div class="uagb-timeline__widget uagb-timeline__left"><div class="uagb-timeline__marker out-view-uagb-timeline__icon"><span class="uagb-timeline__icon-new out-view-uagb-timeline__icon "><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span></div><div class="uagb-timeline__day-new uagb-timeline__day-left"><div class="uagb-events-new"><div class="uagb-timeline__events-inner-new"><div class="uagb-timeline__date-hide uagb-timeline__date-inner"></div><div class="uagb-timeline-content"><div class="uagb-timeline__heading-text"><h4 class="uagb-timeline__heading">3. Подписание договора</h4></div><p class="uagb-timeline-desc-content">Согласование условий сотрудничества и подписание договора</p><div class="uagb-timeline__arrow"></div></div></div></div></div></div></article><article class="uagb-timeline__field uagb-timeline__field-wrap"><div class="uagb-timeline__widget uagb-timeline__left"><div class="uagb-timeline__marker out-view-uagb-timeline__icon"><span class="uagb-timeline__icon-new out-view-uagb-timeline__icon "><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span></div><div class="uagb-timeline__day-new uagb-timeline__day-left"><div class="uagb-events-new"><div class="uagb-timeline__events-inner-new"><div class="uagb-timeline__date-hide uagb-timeline__date-inner"></div><div class="uagb-timeline-content"><div class="uagb-timeline__heading-text"><h4 class="uagb-timeline__heading">4. Подготовка документов</h4></div><p class="uagb-timeline-desc-content">Сбор и подготовка необходимой разрешительной документации</p><div class="uagb-timeline__arrow"></div></div></div></div></div></div></article><article class="uagb-timeline__field uagb-timeline__field-wrap"><div class="uagb-timeline__widget uagb-timeline__left"><div class="uagb-timeline__marker out-view-uagb-timeline__icon"><span class="uagb-timeline__icon-new out-view-uagb-timeline__icon "><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span></div><div class="uagb-timeline__day-new uagb-timeline__day-left"><div class="uagb-events-new"><div class="uagb-timeline__events-inner-new"><div class="uagb-timeline__date-hide uagb-timeline__date-inner"></div><div class="uagb-timeline-content"><div class="uagb-timeline__heading-text"><h4 class="uagb-timeline__heading">5. Таможенное оформление в Пскове</h4></div><p class="uagb-timeline-desc-content">Выделение специалиста и оформление ДТ под печать таможенного представителя</p><div class="uagb-timeline__arrow"></div></div></div></div></div></div></article></div><div class="uagb-timeline__line"><div class="uagb-timeline__line__inner"></div></div></div></div></div></div>
+<!-- /wp:uagb/content-timeline -->

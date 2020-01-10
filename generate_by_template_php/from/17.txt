@@ -1,0 +1,84 @@
+<!-- wp:paragraph "fontSize":"medium" -->
+ <p class="has-medium-font-size">Компания ТАЙСУ-ТБ осуществляет <a href="/tamozhennoe-oformlenie/">таможенное оформление</a> #gde# и #regiongde# товаров и грузов при импорте и экспорте на всех таможенных постах Российской Федерации.</p> 
+<!-- /wp:paragraph -->
+  
+<!-- wp:paragraph -->
+ <p>Огромный практический опыт  специалистов, позволяет макисмально быстро проводить таможенные операции с любыми товарами.</p> 
+<!-- /wp:paragraph -->
+  
+<!-- wp:heading -->
+ <h2>Услуги таможенного брокера #gde#</h2> 
+<!-- /wp:heading -->
+  
+<!-- wp:paragraph -->
+ <p>ТАЙСУ-ТБ работает по принципу "одного окна". Предоставляем полный комплекс услуг, необходимых для импорта и экспорта , в одном месте.</p> 
+<!-- /wp:paragraph -->
+  
+<!-- wp:list "className":"service-block" -->
+ <ul class="service-block"><li>Индивидуальный специалист по таможенному оформлению;</li><li>Подготовка обязательных документов для заполнения таможенной декларации;</li><li>Рекомендации по кодам ТН ВЭД товаров;</li><li>Рассчитываем будущие таможенные платежи, размер взимаемых пошлин, акцизов и сборов;</li><li>Подготовка документов, необходимых для таможенного оформления;</li><li>Документооборот с таможней #chego#;</li><li>Подтверждение таможенной стоимости;</li><li>Представление Ваших интересов в таможенных органах;</li><li>Организацию в необходимых случаях предварительного таможенного осмотра товаров и транспортных средств до подачи ДТ;</li><li>Декларирование товара в таможенной службе;</li><li>Информирование и консультационные услуги в рамках поставки;</li></ul> 
+<!-- /wp:list -->
+  
+<!-- wp:heading -->
+ <h2>#tam#</h2> 
+<!-- /wp:heading -->
+  
+<!-- wp:paragraph -->
+ <p>Код таможни: #cod#<br>Адрес: #adr#<br>Телефон: #phone#</p> 
+<!-- /wp:paragraph -->
+  
+<!-- wp:html -->
+ #map# 
+<!-- /wp:html -->
+  
+<!-- wp:spacer "height":30 -->
+ <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div> 
+<!-- /wp:spacer -->
+  
+<!-- wp:heading "level":3 -->
+ <h3>Таможенные посты #tamchego#</h3> 
+<!-- /wp:heading -->
+  
+<!-- wp:table -->
+ #tamtable# 
+<!-- /wp:table -->
+  
+<!-- wp:heading "level":3 -->
+ <h3>СВХ #chego# и #regiochego#</h3> 
+<!-- /wp:heading -->
+  
+<!-- wp:table -->
+ #svhtable# 
+<!-- /wp:table -->
+  
+<!-- wp:heading -->
+ <h2>Преимущества таможенного брокера ТАЙСУ-ТБ</h2> 
+<!-- /wp:heading -->
+  
+<!-- wp:list "className":"st" -->
+ <ul class="st"><li>Персональный менеджер ведет груз по всей цепи поставки, экономя Ваше время на коммуникации с отдельными специалистами;</li><li>Свидетельство таможенного представителя;</li><li>Более 28 лет на рынке;</li><li>Таможенное оформление день в день;</li><li>Представительства во всех ключевых транзитных таможенных постах;</li><li>Оказываем полный комплекс услуг по таможенному оформлению и международным грузоперевозкам;</li></ul> 
+<!-- /wp:list -->
+  
+<!-- wp:heading -->
+ <h2>Стоимость и сроки растаможки #gde#</h2> 
+<!-- /wp:heading -->
+  
+<!-- wp:paragraph -->
+ <p>Средний срок выпуска поставки с таможни не более 24 часов. Чаще всего за счет высокого профессионализма и отлаженных механизмов работы с таможенными органами процедура занимает несколько часов.</p> 
+<!-- /wp:paragraph -->
+  
+<!-- wp:paragraph -->
+ <p>Таможенное оформление в #gde# и #regiongde# имеет индивидуальные расценки. Окончательные условия, наименование и стоимость услуг определяются в договоре. Цена зависит от таможенного режима, условий поставки, номенклатуры товаров, количества и периодичности поставок.</p> 
+<!-- /wp:paragraph -->
+
+
+<!-- wp:button {"backgroundColor":"vivid-red"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-vivid-red-background-color" href="https://taisu-tb.ru/services/tseny-na-uslugi/"> Тарифы на услуги таможенного оформления </a></div>
+<!-- /wp:button -->
+
+<!-- wp:heading -->
+<h2>Порядок таможенного оформления #gde#</h2>
+<!-- /wp:heading -->
+
+<!-- wp:uagb/content-timeline {"tm_content":[{"time_heading":"1. Запрос на оформление","time_desc":"Свяжитесь с нами по телефону \u003ca href=\u0022tel:+74995000049\u0022\u003e+7 (499) 500-00-49\u003c/a\u003e или через \u003ca href=\u0022#order\u0022\u003eформу на сайте\u003c/a\u003e"},{"time_heading":"2. Консультация специалиста","time_desc":"Мы узнаем Вашу задачу в сфере ВЭД и сообщаем цену на таможенное оформление"},{"time_heading":"3. Подписание договора","time_desc":"Согласование условий сотрудничества и подписание договора"},{"time_heading":"4. Подготовка документов","time_desc":"Сбор и подготовка необходимой разрешительной документации"},{"time_heading":"5. Таможенное оформление #gde#","time_desc":"Выделение специалиста и оформление ДТ под печать таможенного представителя"}],"headingColor":"#cf2e2e","separatorBg":"#eeeeee","separatorColor":"#eeeeee","separatorFillColor":"#cf2e2e","separatorBorder":"#cf2e2e","borderFocus":"#cf2e2e","headFontSize":20,"headFontWeight":"500","timelinAlignment":"left","iconColor":"#cf2e2e","iconFocus":"#eeeeee","iconBgFocus":"#cf2e2e","block_id":"fe0e6a50-6963-4e04-9534-a3b8d3aa4d31","icon":"check","displayPostDate":false} -->
+<div class="wp-block-uagb-content-timeline uagb-timeline__outer-wrap" id="uagb-ctm-fe0e6a50-6963-4e04-9534-a3b8d3aa4d31"><div class="uagb-timeline__content-wrap uagb-timeline__left-block uagb-timeline__arrow-center uagb-timeline__responsive-tablet uagb-timeline"><div class="uagb-timeline-wrapper"><div class="uagb-timeline__main"><div class="uagb-timeline__days"><article class="uagb-timeline__field uagb-timeline__field-wrap"><div class="uagb-timeline__widget uagb-timeline__left"><div class="uagb-timeline__marker out-view-uagb-timeline__icon"><span class="uagb-timeline__icon-new out-view-uagb-timeline__icon "><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span></div><div class="uagb-timeline__day-new uagb-timeline__day-left"><div class="uagb-events-new"><div class="uagb-timeline__events-inner-new"><div class="uagb-timeline__date-hide uagb-timeline__date-inner"></div><div class="uagb-timeline-content"><div class="uagb-timeline__heading-text"><h4 class="uagb-timeline__heading">1. Запрос на оформление</h4></div><p class="uagb-timeline-desc-content">Свяжитесь с нами по телефону <a href="tel:+74995000049">+7 (499) 500-00-49</a> или через <a href="#order">форму на сайте</a></p><div class="uagb-timeline__arrow"></div></div></div></div></div></div></article><article class="uagb-timeline__field uagb-timeline__field-wrap"><div class="uagb-timeline__widget uagb-timeline__left"><div class="uagb-timeline__marker out-view-uagb-timeline__icon"><span class="uagb-timeline__icon-new out-view-uagb-timeline__icon "><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span></div><div class="uagb-timeline__day-new uagb-timeline__day-left"><div class="uagb-events-new"><div class="uagb-timeline__events-inner-new"><div class="uagb-timeline__date-hide uagb-timeline__date-inner"></div><div class="uagb-timeline-content"><div class="uagb-timeline__heading-text"><h4 class="uagb-timeline__heading">2. Консультация специалиста</h4></div><p class="uagb-timeline-desc-content">Мы узнаем Вашу задачу в сфере ВЭД и сообщаем цену на таможенное оформление</p><div class="uagb-timeline__arrow"></div></div></div></div></div></div></article><article class="uagb-timeline__field uagb-timeline__field-wrap"><div class="uagb-timeline__widget uagb-timeline__left"><div class="uagb-timeline__marker out-view-uagb-timeline__icon"><span class="uagb-timeline__icon-new out-view-uagb-timeline__icon "><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span></div><div class="uagb-timeline__day-new uagb-timeline__day-left"><div class="uagb-events-new"><div class="uagb-timeline__events-inner-new"><div class="uagb-timeline__date-hide uagb-timeline__date-inner"></div><div class="uagb-timeline-content"><div class="uagb-timeline__heading-text"><h4 class="uagb-timeline__heading">3. Подписание договора</h4></div><p class="uagb-timeline-desc-content">Согласование условий сотрудничества и подписание договора</p><div class="uagb-timeline__arrow"></div></div></div></div></div></div></article><article class="uagb-timeline__field uagb-timeline__field-wrap"><div class="uagb-timeline__widget uagb-timeline__left"><div class="uagb-timeline__marker out-view-uagb-timeline__icon"><span class="uagb-timeline__icon-new out-view-uagb-timeline__icon "><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span></div><div class="uagb-timeline__day-new uagb-timeline__day-left"><div class="uagb-events-new"><div class="uagb-timeline__events-inner-new"><div class="uagb-timeline__date-hide uagb-timeline__date-inner"></div><div class="uagb-timeline-content"><div class="uagb-timeline__heading-text"><h4 class="uagb-timeline__heading">4. Подготовка документов</h4></div><p class="uagb-timeline-desc-content">Сбор и подготовка необходимой разрешительной документации</p><div class="uagb-timeline__arrow"></div></div></div></div></div></div></article><article class="uagb-timeline__field uagb-timeline__field-wrap"><div class="uagb-timeline__widget uagb-timeline__left"><div class="uagb-timeline__marker out-view-uagb-timeline__icon"><span class="uagb-timeline__icon-new out-view-uagb-timeline__icon "><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span></div><div class="uagb-timeline__day-new uagb-timeline__day-left"><div class="uagb-events-new"><div class="uagb-timeline__events-inner-new"><div class="uagb-timeline__date-hide uagb-timeline__date-inner"></div><div class="uagb-timeline-content"><div class="uagb-timeline__heading-text"><h4 class="uagb-timeline__heading">5. Таможенное оформление #gde#</h4></div><p class="uagb-timeline-desc-content">Выделение специалиста и оформление ДТ под печать таможенного представителя</p><div class="uagb-timeline__arrow"></div></div></div></div></div></div></article></div><div class="uagb-timeline__line"><div class="uagb-timeline__line__inner"></div></div></div></div></div></div>
+<!-- /wp:uagb/content-timeline -->
