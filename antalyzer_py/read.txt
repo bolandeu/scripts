@@ -1,0 +1,20 @@
+1. Класс для работы с основными системами рекламы и аналитики
+2. Сбор данных
+3. Запись в excel, csv, google tables, google cloud, sql in database
+4. Многопоточность
+5. Запуск из Jupiter и терминала
+================
+
+1. Сырые данные яндекс метрика
+https://ppc.world/articles/rabota-s-pervichnoy-analitikoy-vygruzhaem-syrye-dannye-iz-metriki-s-pomoschyu-skripta/
+https://yandex.ru/dev/metrika/
+
+ID: 2f01997813194d5587af1ba2ec34df79
+Пароль: 972da8570e3f4a2bbfe4a7cd9d583109
+Callback URL: https://oauth.yandex.ru/verification_code
+
+Для примера счетчик 
+51446557
+
+OAuth-токен
+AgAAAAABXm8lAAYBK5rmodHyn0_-vzwKB_9Xp9g
