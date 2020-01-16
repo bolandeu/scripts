@@ -3,6 +3,9 @@ import re
 from bs4 import BeautifulSoup
 import lxml
 from urllib.parse import urlparse
+import pandas as pd
+from openpyxl import load_workbook
+import os
 
 def get_email(content):
     email_pattern = re.findall(r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+', content)
@@ -59,25 +62,56 @@ markers = ['Контакты', 'Контактная информация', 'К�
 url = 'http://onway-logistics.com'
 	
 
-
-def main():    
-    text = get_content(url, headers)
+def parse_emails(url):
+	emails = set() 
+	text = get_content(url, headers)
     #print(text)
-    emails = get_email(text)
-    #print('Главная', emails)
-    if not emails:
-        content = get_content(url, headers, "content")
-        links = get_pages_by_marker(content, markers)
-        #print('Контакты', links)
-        for addr in links:
+	emails = get_email(text)
+	#print('Главная', emails, url)
+	if not emails:
+		content = get_content(url, headers, "content")
+		links = get_pages_by_marker(content, markers)
+		#print('Контакты', links)
+		for addr in links:
             #print(addr)
-            text = get_content(addr, headers)            
-            emails_contact = get_email(text)
+			text = get_content(addr, headers)            
+			emails_contact = get_email(text)
             #print(emails_contact)
-            emails.update(emails_contact)
-    print(emails)
-# end main
+			emails.update(emails_contact)
+	return emails
+# end parse_emails
 
+def main():
+
+	# отрываем входные данные и пишем в словарь
+	file_name = os.path.dirname(os.path.realpath(__file__)) + "/file.xlsx"
+	input_sheet = pd.read_excel(file_name, u"input")
+	input_dict = dict(zip(input_sheet['id'], input_sheet['url'])) 
+
+	
+	# создаем словарь с новыми данными
+	output_data = {}
+	for id, url in input_dict.items(): 
+		email = parse_emails(url)
+		
+		if email:
+			output_data[id] = email
+		else:
+			output_data[id] = "none"
+    
+	# конструируем объект pandas    
+	s = pd.Series(output_data)
+	output_sheet = pd.DataFrame(list(s.items()), columns=['id', 'email'])
+
+	# записываем в эксель
+	book = load_workbook(file_name)
+	with pd.ExcelWriter(file_name, engine='openpyxl') as writer:
+		writer.book = book
+		writer.sheets = dict((ws.title, ws) for ws in book.worksheets)
+		output_sheet.to_excel(writer, sheet_name=u'output', index=False)
+		writer.save()
+	
+# end main
 
 if __name__ == '__main__':
     main()
