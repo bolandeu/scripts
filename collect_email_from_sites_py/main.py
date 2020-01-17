@@ -12,19 +12,26 @@ def arrays_to_string(array, delimiter = ","):
     count = 1
     for i in array:
         str = str + i 
-        if count < len(a):
+        if count < len(array):
             str = str + delimiter
         count += 1
     return str
 # end arrays_to_string
 
 def get_email(content):
-    email_pattern = re.findall(r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+', content)
-    emails = set(email_pattern)
-    return emails
+    if content:
+        email_pattern = re.findall(r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+', content)
+        i = 0
+        for email in email_pattern:
+            email_pattern[i] = email.lower()
+            i += 1
+        emails = set(email_pattern)
+        return emails
+    else:
+        return False    
 # end get_email
 
-def get_content(url, headers, type='text'):
+def get_content(url, headers="", type='text'):
     try:   
         request = requests.get(url, headers=headers, timeout=(1, 10))
         if request.status_code == 200: # если страница существует 
@@ -32,33 +39,40 @@ def get_content(url, headers, type='text'):
                 return request.content # возвращаем содержимое страницы
             else:
                 return request.text # возвращаем содержимое страницы
+        else:
+                return False
     except requests.exceptions.ConnectTimeout:
-        return 'Connection timeout'
+        return False
+        #return 'Connection timeout'
     except requests.exceptions.ReadTimeout:
-        return 'Read timeout occured'
+        return False
+        #return 'Read timeout occured'
     except requests.exceptions.ConnectionError:
-        return 'Seems like dns lookup failed..'
-    except requests.exceptions.HTTPError as err:
-        return 'HTTP Error: {content}'.format(content=err.response.content)    
+        return False
+        #return 'Seems like dns lookup failed..'
+    except requests.exceptions.HTTPError as err:       
+        return 'HTTP Error: {content}'.format(content=err.response.content)
+          
 # end get_content
 
-def get_pages_by_marker(content, markers):
+def get_pages_by_marker(url, content, markers):
     links = set()  # множество ссылок    
-    soup = BeautifulSoup(content, 'lxml')
-    for tag in soup.find_all('a', href=True):
-        link = tag['href'] # выделяем ссылку            
-        #print(tag.text, link)
-        # проверяем на маркеры
-        for marker in markers:
+    if content:
+        soup = BeautifulSoup(content, 'lxml')
+        for tag in soup.find_all('a', href=True):
+            link = tag['href'] # выделяем ссылку            
+            #print(tag.text, link)
+            # проверяем на маркеры
+            for marker in markers:
 
-            if link.find(marker)>=0 or (tag.text).find(marker)>=0:
-                # если относительная делаем абсолютной
-                if link.find('http') == -1:
-                    link = url + link
-                # print(urlparse(url).netloc, urlparse(link).netloc)
-                # проверяем что ссылка внутренняя    
-                if urlparse(url).netloc == urlparse(link).netloc:
-                    links.add(link) #добавляем в множество
+                if link.find(marker)>=0 or (tag.text).find(marker)>=0:
+                    # если относительная делаем абсолютной
+                    if link.find('http') == -1:
+                        link = url + link
+                    # print(urlparse(url).netloc, urlparse(link).netloc)
+                    # проверяем что ссылка внутренняя    
+                    if urlparse(url).netloc == urlparse(link).netloc:
+                        links.add(link) #добавляем в множество
     return links
 # end get_pages_by_marker
 
@@ -69,19 +83,17 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 # Маркеры текста ссылок страницы контактов
 markers = ['Контакты', 'Контактная информация', 'Контакт', 'contacts', 'contact', 'kontakty']
 
-# Адрес
-url = 'http://onway-logistics.com'
-	
+cleaning = ['rating@mail.ru', '--rating@mail.ru']
 
 def parse_emails(url):
 	emails = set() 
 	text = get_content(url, headers)
     #print(text)
-	emails = get_email(text)
-	#print('Главная', emails, url)
+	if text: emails = get_email(text)
+    #print('Главная', emails, url)
 	if not emails:
 		content = get_content(url, headers, "content")
-		links = get_pages_by_marker(content, markers)
+		links = get_pages_by_marker(url, content, markers)
 		#print('Контакты', links)
 		for addr in links:
             #print(addr)
@@ -93,33 +105,39 @@ def parse_emails(url):
 # end parse_emails
 
 def main():
-
-	# отрываем входные данные и пишем в словарь
-	file_name = os.path.dirname(os.path.realpath(__file__)) + "/file.xlsx"
-	input_sheet = pd.read_excel(file_name, u"input")
-	input_dict = dict(zip(input_sheet['id'], input_sheet['url']))
 	
-	# создаем словарь с новыми данными
-	output_data = {}
-	for id, url in input_dict.items(): 
-		email = parse_emails(url)
+	# отрываем входные данные и пишем в словарь
+    file_name = os.path.dirname(os.path.realpath(__file__)) + "/file.xlsx"
+    input_sheet = pd.read_excel(file_name, u"input")
+    input_dict = dict(zip(input_sheet['id'], input_sheet['url']))
+	
+    # создаем словарь с новыми данными
+    output_data = {}
+    count = 1
+    for id, url in input_dict.items():
+        email = parse_emails(url)   
+        cemails = email.difference(cleaning)
+        if cemails:
+            output_data[id] = arrays_to_string(cemails,', ')
+        else:
+            output_data[id] = ''
+
+        print(count, output_data[id])
+        count += 1
 		
-		if email:
-			output_data[id] = arrays_to_string(email)
-		else:
-			output_data[id] = "none"
-    
-	# конструируем объект pandas    
-	s = pd.Series(output_data)
-	output_sheet = pd.DataFrame(list(s.items()), columns=['id', 'email'])
+
+   	# конструируем объект pandas    
+    s = pd.Series(output_data)
+    output_sheet = pd.DataFrame(list(s.items()), columns=['id', 'email'])
 
 	# записываем в эксель
-	book = load_workbook(file_name)
-	with pd.ExcelWriter(file_name, engine='openpyxl') as writer:
-		writer.book = book
-		writer.sheets = dict((ws.title, ws) for ws in book.worksheets)
-		output_sheet.to_excel(writer, sheet_name=u'output', index=False)
-		writer.save()	
+    book = load_workbook(file_name)
+    with pd.ExcelWriter(file_name, engine='openpyxl') as writer:
+        writer.book = book
+        writer.sheets = dict((ws.title, ws) for ws in book.worksheets)
+        output_sheet.to_excel(writer, sheet_name=u'output', index=False)
+        writer.save()	
+    
 # end main
 
 if __name__ == '__main__':
