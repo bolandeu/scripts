@@ -7,6 +7,17 @@ import pandas as pd
 from openpyxl import load_workbook
 import os
 
+def arrays_to_string(array, delimiter = ","):
+    str = ''
+    count = 1
+    for i in array:
+        str = str + i 
+        if count < len(a):
+            str = str + delimiter
+        count += 1
+    return str
+# end arrays_to_string
+
 def get_email(content):
     email_pattern = re.findall(r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+', content)
     emails = set(email_pattern)
@@ -86,8 +97,7 @@ def main():
 	# отрываем входные данные и пишем в словарь
 	file_name = os.path.dirname(os.path.realpath(__file__)) + "/file.xlsx"
 	input_sheet = pd.read_excel(file_name, u"input")
-	input_dict = dict(zip(input_sheet['id'], input_sheet['url'])) 
-
+	input_dict = dict(zip(input_sheet['id'], input_sheet['url']))
 	
 	# создаем словарь с новыми данными
 	output_data = {}
@@ -95,7 +105,7 @@ def main():
 		email = parse_emails(url)
 		
 		if email:
-			output_data[id] = email
+			output_data[id] = arrays_to_string(email)
 		else:
 			output_data[id] = "none"
     
@@ -109,8 +119,7 @@ def main():
 		writer.book = book
 		writer.sheets = dict((ws.title, ws) for ws in book.worksheets)
 		output_sheet.to_excel(writer, sheet_name=u'output', index=False)
-		writer.save()
-	
+		writer.save()	
 # end main
 
 if __name__ == '__main__':
