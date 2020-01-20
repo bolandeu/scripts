@@ -7,32 +7,10 @@ from openpyxl import load_workbook
 import os
 
 
-def arrays_to_string(array, delimiter=","):
-    """
-    Array to string convertor
-    :param array: set or list to convert.
-    :param delimiter: str is symbols between nodes of array
-    :return: str of converted answer
-    """
-    str = ''
-    count = 1
-    for i in array:
-        str = str + i
-        if count < len(array):
-            str = str + delimiter
-        count += 1
-    return str
-
-
 def get_email(content):
     if content:
-        email_pattern = re.findall(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+", content)
-        i = 0
-        for email in email_pattern:
-            email_pattern[i] = email.lower()
-            i += 1
-        emails = set(email_pattern)
-        return emails
+        email_pattern = re.findall(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+", content)       
+        return set([email.lower() for email in email_pattern])
     else:
         return False
     # end get_email
@@ -49,14 +27,11 @@ def get_content(url, headers="", type='text'):
         else:
             return False
     except requests.exceptions.ConnectTimeout:
-        return False
-        # return 'Connection timeout'
+        return False # return 'Connection timeout'        
     except requests.exceptions.ReadTimeout:
-        return False
-        # return 'Read timeout occured'
+        return False # return 'Read timeout occured'        
     except requests.exceptions.ConnectionError:
-        return False
-        # return 'Seems like dns lookup failed..'
+        return False # return 'Seems like dns lookup failed..'        
     except requests.exceptions.HTTPError as err:
         return 'HTTP Error: {content}'.format(content=err.response.content)
 
@@ -91,7 +66,7 @@ headers = {
 markers = ['Контакты', 'Контактная информация', 'Контакт', 'contacts', 'contact', 'kontakty']
 
 # Что исключать
-cleaning = ['rating@mail.ru', '--rating@mail.ru']
+cleaning = {'rating@mail.ru', '--rating@mail.ru'}
 
 
 def parse_emails(url):
@@ -113,6 +88,7 @@ def parse_emails(url):
 
 
 def main():
+    
     # отрываем входные данные и пишем в словарь
     file_name = os.path.dirname(os.path.realpath(__file__)) + "/file.xlsx"
     input_sheet = pd.read_excel(file_name, u"input")
@@ -120,12 +96,12 @@ def main():
 
     # создаем словарь с новыми данными
     output_data = {}
-    count = 1
+    count = 1	
     for id, url in input_dict.items():
-        email = parse_emails(url)
+        email = parse_emails(url)		
         cemails = email.difference(cleaning)
         if cemails:
-            output_data[id] = arrays_to_string(cemails, ', ')
+            output_data[id] = ', '.join(cemails)
         else:
             output_data[id] = ''
 
