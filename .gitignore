@@ -8,3 +8,4 @@ env
 .DS_Store
 db.sqlite3
 /static
+.ipynb_checkpoints
